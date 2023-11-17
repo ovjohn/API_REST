@@ -13,14 +13,14 @@ GET http://localhost:9000/api HTTP/1.1
 
 
 ###
-PUT http://localhost:9000/api/5 HTTP/1.1
+PUT http://localhost:9000/api/8 HTTP/1.1
 Content-Type: application/json
 
 {
-    "titulo": "El buen vivir",
-    "autor":"Asdrubal Casanoba",
-    "edicion": 8
+    "titulo": "Super Fuerte",
+    "autor":"Sinb Autor",
+    "edicion": 3
 }
 
 ###
-DELETE http://localhost:9000/api/5 HTTP/1.1
+DELETE http://localhost:9000/api/8 HTTP/1.1
